@@ -6,7 +6,6 @@ public class TestClassSeleniumRL {
     @Test
     public void testCheckPrice() {
         Assert.assertEquals(classSeleniumRL.price, classSeleniumRL.checkPrice(classSeleniumRL.getPrice(classSeleniumRL.driver)));
-
     }
 
 }

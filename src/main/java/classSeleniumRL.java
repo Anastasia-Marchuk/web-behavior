@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class classSeleniumRL {
 
+
     static {
         System.setProperty("webdriver.chrome.driver", "/projects/chromedriver_linux64/chromedriver");
     }
