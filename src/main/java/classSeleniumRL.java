@@ -11,7 +11,6 @@ public class classSeleniumRL {
     static {
         System.setProperty("webdriver.chrome.driver", "/projects/chromedriver_linux64/chromedriver");
     }
-
     static WebDriver driver = new ChromeDriver();
     static String price = "156.25 USD";
 
