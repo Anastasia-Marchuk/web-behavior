@@ -14,7 +14,6 @@ public class classSeleniumRL {
     static WebDriver driver = new ChromeDriver();
     static String price = "156.25 USD";
 
-
     public static void main(String[] args) {
         WebElement price = getPrice(driver);
         checkPrice(price);
