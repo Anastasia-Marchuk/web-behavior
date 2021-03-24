@@ -6,7 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 
-public class classSeleniumRL {
+public class SeleniumRL {
 
 
     static {
