@@ -42,7 +42,7 @@ apachect -k start
 ```
 We are almost done just deploy the project with the command:
 ```bash
- "gradle build"
+gradle build
 ```
 Now you can see the output
 ```bash
