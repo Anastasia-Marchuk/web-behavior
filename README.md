@@ -1,8 +1,8 @@
-WebBehavior
+# WebBehavior
 This application help to estimate behavior of CCC web Application. Users are engineers and QA specialists from CCC team. 
 The App helps check prices without using browsers manually. It makes work faster and more comfortable.
 
-Getting Started
+## Getting Started
 
 Install Gradle
 On Unix
@@ -27,20 +27,23 @@ In the same dialog, make sure that JAVA_HOME exists in your user variables or in
 
 Open a new command prompt (type cmd in Start menu) and run gradle –version to verify that it is correctly installed.
 
-Set up the project
+## Set up the project
 Clone this repo to your local machine using:
-
+```bash
 https://github.com/AnastasiaMarchuk/WebBehavior
-
+```
 ------------------------------------
 Build Java code
 Now we are behind few step.
 
 Application deployment
 
-Start your apache using command "apachect -k start"
+Start your apache using command:
+```bash
+apachect -k start
+```
 We are almost done just deploy the project with the command "gradle build". Now you can see the output
-
+```bash
   > Task :compileJava
   > Task :processResources NO-SOURCE
   > Task :classes
@@ -52,13 +55,13 @@ We are almost done just deploy the project with the command "gradle build". Now 
 
   BUILD SUCCESSFUL
   Total time: 9 secs
-
+```
 --------------------------
 
-Technology stack
-Spring Framework
-Hibernate
-Gradle
+## Technology stack
++ Spring Framework
++ Hibernate
++ Gradle
 
 License
 MIT
