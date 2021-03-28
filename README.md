@@ -14,8 +14,6 @@ $ sudo apt-get install gradle
 ### On Mac OS X
 ```bash
 brew install gradle
-```
-```bash
 Install Homebrew.
 ```
 ### On Windows
@@ -42,7 +40,11 @@ Start your apache using command:
 ```bash
 apachect -k start
 ```
-We are almost done just deploy the project with the command "gradle build". Now you can see the output
+We are almost done just deploy the project with the command:
+```bash
+ "gradle build"
+```
+Now you can see the output
 ```bash
   > Task :compileJava
   > Task :processResources NO-SOURCE
@@ -56,12 +58,12 @@ We are almost done just deploy the project with the command "gradle build". Now 
   BUILD SUCCESSFUL
   Total time: 9 secs
 ```
---------------------------
+
 
 ## Technology stack
 + Spring Framework
 + Hibernate
 + Gradle
 
-License
+## License
 MIT
