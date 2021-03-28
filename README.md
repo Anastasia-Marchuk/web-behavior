@@ -1,5 +1,5 @@
 # WebBehavior
-This application help to estimate behavior of CCC web Application. Users are engineers and QA specialists from CCC team. 
+This application helps to estimate behavior of CCC web Application. Users are engineers and QA specialists from CCC team. 
 The App helps check prices without using browsers manually. It makes work faster and more comfortable.
 
 ## Getting Started
